@@ -37,6 +37,7 @@ body {
 }
 .content-block{
   padding: 110px 10px 110px;
+  text-align: center;
 }
 .content-wrapper{
   max-width: 903px;
@@ -96,6 +97,12 @@ border-color: #fff;
     #ffffff 70%
   );
 }
+.services.content-block{
+  padding-bottom: 70px;
+}
+.services--wrapper.content-wrapper{
+  margin-bottom: 60px;
+}
 .services--wrapper.content-wrapper > h2{
   color: #ffffff;
 }
@@ -122,7 +129,7 @@ h3 {
 }
 .what-we-do__text > p {
   font-size: 0.875em;
-  line-height: 26px;
+  line-height: 25px;
   margin: 0 0 110px;
 }
 .what-we-do__text > p:last-child {
@@ -391,6 +398,9 @@ font-size: 12px;
   line-height: 20px;
 }
 .services__text{
+  line-height: 20px;
+}
+.what-we-do__text > p{
   line-height: 20px;
 }
 .contact-us__button {
